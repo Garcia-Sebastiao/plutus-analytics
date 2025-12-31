@@ -52,6 +52,7 @@ export function SignIn() {
           </div>
 
           <Button
+            variant="secondary"
             className="w-full dark:text-white/60! h-13 gap-x-4 hover:brightness-90 cursor-pointer text-base bg-gray-200 text-gray-900 font-medium rounded-lg"
           >
             <div className="flex-none scale-125">
