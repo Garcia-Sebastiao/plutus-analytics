@@ -8,9 +8,23 @@ export type UserProps = {
     currency: "EUR";
     theme: "light" | "dark";
   };
-  company?: {
-    name: string;
-    industry: string;
-  };
+  companyId: string;
   createdAt?: any;
+};
+
+export type CompanyProps = {
+  id: string;
+  name: string;
+  employees: number;
+  amount: number;
+  industry: string;
+  ownerId: string;
+};
+
+export type CollaboratorType = {
+  id: string;
+  name: string;
+  role: string;
+  email?: string;
+  salary: string;
 };
